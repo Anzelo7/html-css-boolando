@@ -1,7 +1,57 @@
 /*css default*/
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.models{
+    width: 1600px;
+    height: 100%;
+}
+
+/*header*/
+
+.menu {
+    font-size: 15px;
+    width: 1900px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff6900;
+}
+
+.link a {
+    font-weight: 600;
+    margin: 1rem;
+    color: white;
+}
+
+.logo{
+    padding: 0.3%;
+    margin-right: 120px;
+    width: 140px;
+    height: 40px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.icon {
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.3rem;
 }

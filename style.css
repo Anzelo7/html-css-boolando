@@ -32,7 +32,7 @@
     color: white;
 }
 
-.logo{
+.logo {
     padding: 0.3%;
     margin-right: 120px;
     width: 140px;
@@ -50,48 +50,78 @@
     color: white;
     letter-spacing: 0.3rem;
 }
+
 /*/header*/
 
 /*main*/
 
-.models{
+.cards {
     width: 1600px;
     margin: auto;
     justify-content: center;
     background-color: goldenrod;
 }
 
-.model{
+.model {
     width: 500px;
     height: 700px;
-    padding: 3%;
+    padding: 2%;
 }
 
-.img{
+.img {
     width: 100%;
 }
 
-#levisfit{
+.levisfit {
     position: relative;
 }
 
-#levisfit:hover{
+#levisfitbehind {
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#levisfitee{
-    position: relative;
+.levisfit:hover #levisfitbehind {
+    opacity: 1;
 }
 
-#levisfitee:hover{
-    opacity: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.sale {
+    position: relative;
+    bottom: 100px;
+    right: 0px;
 }
+
+.sale:first-of-type {
+    background-color: red;
+}
+
+.sale:last-of-type {
+    background-color: green;
+}
+
+i {
+    position: relative;
+    left: 270px;
+    bottom: 618px;
+    color: black;
+}
+
+.levisfit:hover .fa-heart {
+    color: red;
+}
+
+.pricelevis{
+    margin-top: -25px;
+}
+
+.pricelevis > span{
+    color: red;
+    font-weight: 600;
+}
+
+
 /*/main*/
 
 

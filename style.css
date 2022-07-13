@@ -43,12 +43,11 @@
     width: 100%;
 }
 
-.icon {
-    padding: 10px 15px;
+.icon > *{
+    padding: 10px;
     border-radius: 30px;
     font-weight: 600;
     color: white;
-    letter-spacing: 0.3rem;
 }
 
 /*/header*/
@@ -59,7 +58,6 @@
     width: 1600px;
     margin: auto;
     justify-content: center;
-    background-color: goldenrod;
 }
 
 .model {
@@ -72,18 +70,18 @@
     width: 100%;
 }
 
-.levisfit {
+.modelfit {
     position: relative;
 }
 
-#levisfitbehind {
+#modelfitbehind {
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.levisfit:hover #levisfitbehind {
+.modelfit:hover #modelfitbehind {
     opacity: 1;
 }
 
@@ -101,31 +99,62 @@
     background-color: green;
 }
 
-i {
+.modelfit i{
     position: relative;
     left: 270px;
     bottom: 618px;
     color: black;
 }
 
-.levisfit:hover .fa-heart {
+.modelfit:hover .fa-heart {
     color: red;
 }
 
-.pricelevis{
-    margin-top: -25px;
+.pricemodelfit{
+    margin-top: -20px;
 }
 
-.pricelevis > span{
+.pricemodelfit > span{
     color: red;
     font-weight: 600;
 }
 
+#guess{
+    position: relative;
+    left: 355px;
+}
 
+#CZF{
+    position: relative;
+    left: 355px;
+}
+
+#maya{
+    position: relative;
+    left: 400px;
+}
+
+#esprit{
+    position: relative;
+    left: 310px;
+}
 /*/main*/
 
 
 /*footer*/
 
+footer{
+    font-size: 15px;
+    width: 1900px;
+    height: 100px;
+    margin-top: 60px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #202124;
+}
 
+.foot > i{
+    letter-spacing: 1rem;
+}
 /*/footer*/
